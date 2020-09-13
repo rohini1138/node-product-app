@@ -1,0 +1,13 @@
+<h1>Products</h1>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    {{#each userDocuments}}
+    <tr>
+        <tr>{{this.productId}}</tr>
+        <tr>{{this.productName}}</tr>
+    </tr>
+    {{/each}}
+</table>
